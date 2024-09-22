@@ -1,0 +1,7 @@
+.border1{
+    background-color: red;
+  }
+  .banner{
+    border: 1px solid ;
+    background-image: url('../assets/images/banner.avif');
+  }
