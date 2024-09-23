@@ -4,6 +4,7 @@ import Header from "./Header";
 import Order from "./Order";
 import Collection from "./Collection";
 import Location from './Location'
+import Accordian from './Accordian'
 
 const index = () => {
   return (
@@ -23,6 +24,10 @@ const index = () => {
       {/* Location section  start  */}
       <section>
       <Location/>
+      </section>
+      {/* mobail section start  */}
+      <section>
+        <Accordian/>
       </section>
     </div>
   );
