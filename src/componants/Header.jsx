@@ -12,7 +12,7 @@ const Header = () => {
             <div className='container mx-auto  '>
             <Nav/>     
         </div>
-            <h1 className=' text-[78px] font-bold text-center  text-[white]'>Abhishek</h1>
+            <h1 className=' text-[78px] font-bold text-center  text-[white]'>zomato</h1>
             <p className='text-center text-[30px] py-3 text-[white] '> Discover the best food & drinks in Delhi NCR</p>
             <div>
                 <div className="w-[900px] mx-auto p-3 bg-[white] flex justify-normal mt-3 mb-20 rounded-md items-center">
