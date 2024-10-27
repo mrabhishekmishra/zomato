@@ -8,7 +8,7 @@ import Accordian from './Accordian'
 
 const index = () => {
   return (
-    <div className="border border-1 p-2 ">
+    <div className="main">
       {/* header section start */}
       <section>
         <Header />

@@ -155,14 +155,14 @@ useEffect(
         </h1>
 
         <div className="my-10  justify-between ">
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-3 gap-3 ">
             {show.map((v, i) => {
               return (
                 <>
-                  <div className="border border-1 p-2 rounded-sm flex justify-between items-center cursor-pointer">
+                  <div className="border border-1 p-3 rounded-[10px]  flex justify-between items-center cursor-pointer">
                     <div>
-                   <h1>{v.h}</h1>
-                   <p>{v.p}</p>
+                   <h1 className="text-[22px]">{v.h}</h1>
+                   <p className="text-[20px]">{v.p}</p>
                     </div>
                     <div>
                     <MdOutlineKeyboardArrowRight />
@@ -171,7 +171,7 @@ useEffect(
                 </>
               );
             })}
-            <div className="border border-1 p-1 rounded-sm flex items-center justify-center cursor-pointer" onClick={get}>{ get ? ('show more') : ( 'Hide')}</div>
+            <div className="border border-1 p-1 text-[18px] rounded-sm flex items-center justify-center cursor-pointer" onClick={get}>{ get ? ('See More') : ( 'Hide')}</div>
           </div>
         </div>
       </div>

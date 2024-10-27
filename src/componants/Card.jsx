@@ -1,5 +1,4 @@
-import order from "../assets/images/order.avif";
-import Top from "../assets/images/top.avif";
+
 import { IoMdArrowDropright } from "react-icons/io";
 import React from "react";
 
