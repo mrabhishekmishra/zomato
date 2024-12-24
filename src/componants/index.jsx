@@ -5,6 +5,7 @@ import Order from "./Order";
 import Collection from "./Collection";
 import Location from './Location'
 import Accordian from './Accordian'
+import APP from "./zomatoapp";
 
 const index = () => {
   return (
@@ -27,8 +28,13 @@ const index = () => {
       </section>
       {/* mobail section start  */}
       <section>
+        <APP/>
+      </section>
+      {/* accordian section start */}
+      <section>
         <Accordian/>
       </section>
+      {/* accordian section End\ */}
     </div>
   );
 };

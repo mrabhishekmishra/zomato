@@ -1,6 +1,5 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { CiSearch } from "react-icons/ci";
-import React from 'react'
 import Nav from './nav'
 
 

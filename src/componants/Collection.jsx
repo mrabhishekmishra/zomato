@@ -1,4 +1,3 @@
-import React from "react";
 import { Card } from "./Card";
 import Top from "../assets/images/top.avif";
 import Best from "../assets/images/best places.avif";

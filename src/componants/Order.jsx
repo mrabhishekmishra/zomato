@@ -3,7 +3,6 @@ import order from '../assets/images/order.avif'
 import dining from '../assets/images/dining.avif'
 import live from '../assets/images/live.jpeg'
 
-import React from 'react'
 
 function Order() {
   return (
