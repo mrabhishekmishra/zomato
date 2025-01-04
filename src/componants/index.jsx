@@ -6,6 +6,7 @@ import Collection from "./Collection";
 import Location from './Location'
 import Accordian from './Accordian'
 import APP from "./zomatoapp";
+import Footer from "./Footer";
 
 const index = () => {
   return (
@@ -34,7 +35,10 @@ const index = () => {
       <section>
         <Accordian/>
       </section>
-      {/* accordian section End\ */}
+      {/* Footer section End\ */}
+    <section>
+      <Footer/>
+    </section>
     </div>
   );
 };
