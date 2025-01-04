@@ -40,7 +40,7 @@ const Accordian = () => {
             console.log(v.ques);
             return (
               <>
-                <div className="accordian_div p-2  my-5  rounded-md ">
+                <div className="accordian_div p-2  my-5 border rounded-md ">
                   <div
                     className="question w-[100%] text-[23px] cursor-pointer p-3  text-[#282828]"
                     onClick={() => show(i)}
