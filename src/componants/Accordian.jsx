@@ -27,7 +27,7 @@ const Accordian = () => {
     if (!(id === showvalue)) {
       usevalue(id);
     } else {
-      console.log("match");
+      
       usevalue("");
     }
   };
@@ -37,7 +37,7 @@ const Accordian = () => {
         <h1 className="text-[32px] my-2 ">Explore options near me</h1>
         <div className="accordian  ">
           {data.map((v, i) => {
-            console.log(v.ques);
+            
             return (
               <>
                 <div className="accordian_div p-2  my-5 border rounded-md ">

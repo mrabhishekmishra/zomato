@@ -5,7 +5,7 @@ import Index from './componants/index'
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  
   <Index/>
-  </StrictMode>,
+ 
 )
